@@ -1,18 +1,19 @@
 title: Juf Det
-description: 
-url: 
+description: De kunstklas van Juf Det in Heeg
+url: https://jufdet.nl
 
-permalink: /blog/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
       layout: "post"
+
+collections:
+  artworks:
+    output: true

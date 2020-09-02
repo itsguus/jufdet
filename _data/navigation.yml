@@ -1,0 +1,11 @@
+mainmenu:
+  - title: Over Det
+    url: /over-det
+  - title: De Klas
+    url: /de-klas
+  - title: Werkwijze
+    url: /werkwijze
+  - title: Contact
+    url: /contact
+  - title: Vragen
+    url: /veelgestelde-vragen
