@@ -1,7 +1,42 @@
 {% include header.html %}
-<section>
-    <img src="/img/logo.svg" alt="Juf Det">
-    <h1>Deze site wordt momenteel nog gebouwd</h1>
-    <a href="mailto:det@jufdet.nl">Stuur alvast een mailtje <span>&rarr;</span>  </a>
-</section>
-{% include footer.html %} 
+
+<div class="section fullscreen">
+    <div>
+        <h1>{{ page.introduction }}</h1>
+    </div>
+    <a onclick="scrollDown()"><span></span><span></span></a>
+</div>
+
+<div class="section image left">
+    <div>
+        <h2>{{ page.over_det.title }}</h2>
+        <img src="{{page.over_det.image}}" alt="foto van Det">
+        <p>{{ page.over_det.text }}</p>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="section image right carrousel">
+    <div>
+        <h2>{{ page.lokaal.title }}</h2>
+        {% include carrousel.html height="60" unit="%" duration="7" %}
+        <p>{{ page.lokaal.text }}</p>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="section image left">
+    <div>
+        <h2>{{ page.werkwijze.title }}</h2>
+        <img src="{{ page.werkwijze.image }}" alt="foto van Det">
+        <p>{{ page.werkwijze.text }}</p>
+        <a class="button" href="">&euro; Bekijk prijzen</a>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+
+{% include footer.html %}
