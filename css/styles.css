@@ -16,6 +16,8 @@ ul, ol {list-style-type: none;}
 }
 
 
+.not.ready.overlay {width: 100vw; height: 100vh; background: url(/img/paper_tile.svg); z-index: 99; position: fixed; text-align: center; display: flex; justify-content: center; align-items: center;} 
+
 /* HEADERS */
 
 h1, .h1 { font-size: 6vw; font-weight: normal;}
