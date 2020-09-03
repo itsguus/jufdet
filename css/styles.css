@@ -1,6 +1,6 @@
 * {padding: 0; margin: 0; 	vertical-align: baseline; line-height: 1.4; border: 0;}
 html {font-size: 20px; scroll-behavior: smooth;}
-body {font-size: 0.8rem; color: #353535; background: url(/img/paper_tile.svg); font-family: sans-serif; font-weight: 300; font-style: normal; }
+body {font-size: 0.7rem; color: #353535; background: url(/img/paper_tile.svg); font-family: sans-serif; font-weight: 300; font-style: normal; }
 #innerbody {max-width: 175rem; margin: 0 auto;position: relative;}
 a {text-decoration: none; color: #353535;}
 p > a {color: #0B6623;}
@@ -17,11 +17,11 @@ ul, ol {list-style-type: none;}
 }
 
 
-.not.ready.overlay {width: 100vw; height: 100vh; background: url(/img/paper_tile.svg); z-index: 99; position: fixed; text-align: center; display: flex; justify-content: center; align-items: center;} 
+.not.ready.overlay {width: 100vw; top: 0; left: 0; height: 100vh; background: url(/img/paper_tile.svg); z-index: 99; position: fixed; text-align: center; display: flex; justify-content: center; align-items: center;} 
 
 /* HEADERS */
 
-h1, .h1 { font-size: 6vw; font-weight: normal;}
+h1, .h1 { font-size: 8vw; font-weight: normal;}
 h2 { font-size: 5vw;font-weight: normal;}
 
 h3 {font-size: 1.75rem; margin-bottom: 0.25rem; font-weight: normal;}
@@ -49,7 +49,7 @@ h4 { font-size: 0.8rem; font-weight: normal;}
 /* MENU */
 
 #menu {position: fixed; width: 100%; height: 3rem; top: 0; left: 0; z-index: 5; background: url(/img/paper_tile.svg);}
-#menu input[type="checkbox"] {position: absolute; z-index: 99; height: 2rem; width: 2rem; margin-top: 0.75rem; margin-left: 0.75rem; opacity: 0;}
+#menu input[type="checkbox"] {position: absolute; z-index: 99; height: 2rem; width: 2rem; margin-top: 0.75rem; margin-left: 0.75rem; opacity: 0; cursor: pointer;}
 #menu #hamburger {position: absolute; z-index: 98; transition: 600ms ease; transition-delay: 0ms; height: 1.5rem; width: 1.5rem; top: 1rem; left: 1rem;}
 #menu #hamburger span {height: 0.15rem; background: #353535; display: block; margin-bottom: 0.3rem;  transition: 500ms ease; transition-delay: 0ms;}
 
@@ -61,24 +61,24 @@ h4 { font-size: 0.8rem; font-weight: normal;}
 #menu > div:nth-of-type(2) a#logo {margin-top: 0.5rem; height: 3rem; position: relative; display: inline-block; transition: 700ms ease; z-index: 97;}
 #menu > div:nth-of-type(2) a#logo img {height: 100%; width: auto;}
 
-#menu > div:nth-of-type(2) a#logo.fullscreen {height: 6rem; margin-top: 14rem;}
+.home #menu > div:nth-of-type(2) a#logo.fullscreen {height: 6rem; margin-top: 14rem;}
 
 #menu > div:nth-of-type(2) nav {position: absolute; display: flex; align-items: center; flex-direction: column; height: 100vh; width: 100vw; text-align-last: center; text-transform: uppercase; font-size: 1rem;  background: url(/img/paper_tile.svg); left: -150%; transition: 700ms ease; opacity: 0; visibility: hidden;}
 #menu > div:nth-of-type(2) nav > img {height:1.4rem; width: auto; margin-top: 0.9rem;} 
 #menu > div:nth-of-type(2) nav > ul { margin-top: 40%; display: flex; flex-direction: column; align-items: center;}
 #menu > div:nth-of-type(2) nav > ul li:first-of-type { margin-top: 0rem;}
 #menu > div:nth-of-type(2) nav > ul li { margin-top: 1.5rem;}
-#menu > div:nth-of-type(2) nav .divider {height: 2px; width: 1rem; background: #0B6623; margin-top: 1.5rem;}
+#menu > div:nth-of-type(2) nav .menudivider {height: 2px; width: 1rem; background: #0B6623; margin-top: 1.5rem;}
 #menu > div:nth-of-type(2) nav ul > div:last-of-type {display: none;}
 
 #menu input[type=checkbox]:checked {left: calc(100% - 2.5rem); margin-right: 0.75rem; margin-left: 0;}
-#menu input[type=checkbox]:checked ~ div#hamburger {left: calc(100% - 2.25rem); transform: rotate(90deg); transition-delay:150ms;}
+#menu input[type=checkbox]:checked ~ div#hamburger {left: calc(100% - 2.25rem); transform: rotate(180deg); transition-delay:150ms;}
 #menu input[type=checkbox]:checked ~ div#hamburger span {transition-delay: 250ms;}
 #menu input[type=checkbox]:checked ~ div#hamburger span:nth-of-type(1) {width:1.4rem; margin-top: 0.2rem; transform: rotate(45deg); transform-origin: top left;}
 #menu input[type=checkbox]:checked ~ div#hamburger span:nth-of-type(2) {width:0rem; opacity: 0;}
 #menu input[type=checkbox]:checked ~ div#hamburger span:nth-of-type(3) {width:1.4rem; transform: rotate(-45deg); transform-origin: bottom right; margin-top: -0.95rem; margin-left:-0.4rem;}
 #menu input[type=checkbox]:checked ~ div nav {left: 0; opacity: 1; visibility: visible;}
-#menu input[type=checkbox]:checked ~ div #logo {opacity: 0;}
+#menu input[type=checkbox]:checked ~ div #logo {opacity: 0; visibility: hidden;}
 
 div.large {height: 50rem;}
 
@@ -103,23 +103,23 @@ div.large {height: 50rem;}
 
 div.divider {height: 2px; width: 1rem; background: #0B6623; margin: 4rem auto;}
 
-.home .section.image > div {margin: 1rem; position: relative; display: flex; flex-direction: column; align-items: center;}
-.home .section.image > div img {width: 100%; margin-bottom: 0.5rem;}
+.section.image > div {margin: 1rem; position: relative; display: flex; flex-direction: column; align-items: center;}
+.section.image > div img {width: 100%; margin-bottom: 0.5rem;}
 
-.home .section.image .carousel__holder {margin: 0 0 0.5rem -2rem; width: calc(100% + 4rem); }
+.section.image .carousel__holder {margin: 0 0 0.5rem 0rem; width: calc(100% + 2rem); }
 
-.home .section.image a.button { text-transform: uppercase; font-size: 0.7rem; display: inline-block; width: 50%; padding: 0.7rem; background: #353535; color: #ffffff; text-align: center; border-radius: 2rem; margin: 1rem 0; align-self: flex-end; transition: 100ms ease;}
-.home .section.image a.button:hover {background-color: #0B6623;}
+.section.image a.button { text-transform: uppercase; font-size: 0.7rem; display: inline-block; width: 50%; padding: 0.7rem; background: #353535; color: #ffffff; text-align: center; border-radius: 2rem; margin: 1rem 0; align-self: flex-end; transition: 100ms ease;}
+.section.image a.button:hover {background-color: #0B6623;}
 
-.home .section.image.contact > div > div {align-self: flex-end; display: flex; margin-top: 1rem;}
-.home .section.image.contact > div > div > a {margin-left: 1rem;}
-.home .section.image.contact > div > div > a img {width: auto; height: 2rem;}
-.home .section.image.contact > div > div > a img:nth-of-type(1) {height: 1.4rem;}
+.section.image.contact > div > div {align-self: flex-end; display: flex; margin-top: 1rem;}
+.section.image.contact > div > div > a {margin-left: 1rem;}
+.section.image.contact > div > div > a img {width: auto; height: 2rem;}
+.section.image.contact > div > div > a img:nth-of-type(1) {height: 1.4rem;}
 
-.home .section.image.map {margin-top: 4rem;}
-.home .section.image.map > div {margin-bottom: 0;}
-.home .section.image.map > div a {display: block; width: calc(100% + 2rem); padding-bottom: 60%; position: relative;}
-.home .section.image.map > div a img { position: absolute; height: 1rem; width: auto; margin-top: 23%; margin-left: 48%; transform: rotate(-2.5deg); animation: wobble 1s infinite ease; transform-origin: center bottom;}
+.section.image.map {margin-top: 4rem;}
+.section.image.map > div {margin-bottom: 0;}
+.section.image.map > div a {display: block; width: calc(100% + 2rem); padding-bottom: 60%; position: relative;}
+.section.image.map > div a img { position: absolute; height: 1rem; width: auto; margin-top: 23%; margin-left: 48%; transform: rotate(-2.5deg); animation: wobble 1s infinite ease; transform-origin: center bottom;}
 
 @keyframes wobble {
     0% {transform: rotate(-2.5deg);}
@@ -127,7 +127,7 @@ div.divider {height: 2px; width: 1rem; background: #0B6623; margin: 4rem auto;}
     100% {transform: rotate(-2.5deg);}
 }
 
-footer {background: #353535; display: flex; flex-direction: column;}
+footer {background: #353535; display: flex; flex-direction: column; margin-top: 2rem;}
 footer > div {margin: 1rem; margin-top: 0;}
 footer > div:first-of-type {margin-top: 2rem;}
 footer > div > img.logo { width: 4rem; height: auto;}
@@ -137,3 +137,25 @@ footer a  {font-size: 0.7rem; color: #E1E0D6}
 footer #icons { display: flex; flex-direction: column;}
 footer #icons a{ display: flex; align-items: center; margin-bottom: 0.7rem;}
 footer #icons a img {margin-right: 1rem; width: 1rem;}
+
+#breadcrumbs { margin-top: 5rem; margin-left: 1rem; font-size: 0.8rem;}
+#breadcrumbs span {color: #0B6623;}
+#breadcrumbs span.lastitem {color: #353535;}
+
+.section.introduction {margin: 1rem; position: relative;}
+.section.introduction h1 {text-align: right; text-transform: uppercase; margin-bottom: 0.5rem;}
+.section.introduction h2 {margin-top: 2rem;}
+.section.introduction img {width: 100%; margin-bottom: 0.5rem;}
+.section.introduction p {margin-bottom: 0.5rem;}
+
+.section.introduction .imagebox {width:100%; height: 15rem; position: relative; margin: 3rem 0;}
+.section.introduction .imagebox img  {width:100%; height: 100%; object-fit: cover;}
+
+.section.introduction .carousel__holder {width: calc(100% + 2rem); margin-left: -1rem;}
+
+.section.projects {margin: 1rem; position: relative;}
+.section.projects h2 {text-align: right; margin-bottom: 0.5rem;}
+.section.projects h3 {font-size: 0.8rem; text-transform: uppercase;}
+.section.projects ul li {margin-top: 2rem;}
+.section.projects ul li:last-of-type {margin-bottom: 5rem;}
+.section.projects ul li img {width: 100%;}

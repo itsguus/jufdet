@@ -7,7 +7,7 @@ over_det:
     image: /img/filler.jpg
     text: >- 
       Introductietekst hier nog een klein stukje over det schrijven die bij mam past. Dit moet ff alles wat er nu is gechreven bij de Over Juf Det maar dan wat compacter. Lorem Ipsum Lorem lorem ipsum solor da ifet tot.
-lokaal:
+slider:
     title: Lokaal
     images:
         - image: /img/filler.jpg

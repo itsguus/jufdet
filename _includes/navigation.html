@@ -14,11 +14,11 @@
             <ul>
                 {% if page.title == "Home" %} {% else %}
                     <li class="hidemobile"><a href="/">home</a></li>
-                    <div class="divider"></div>
+                    <div class="menudivider"></div>
                 {% endif %}
                 {% for item in site.data.navigation.mainmenu %}
-                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                    <div class="divider"></div>
+                    <li><a href="/kunst/{{ item.url }}">{{ item.title }}</a></li>
+                    <div class="menudivider"></div>
                 {% endfor %}
             </ul>
         </nav>
