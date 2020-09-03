@@ -3,6 +3,7 @@ html {font-size: 20px; scroll-behavior: smooth;}
 body {font-size: 0.8rem; color: #353535; background: url(/img/paper_tile.svg); font-family: sans-serif; font-weight: 300; font-style: normal; }
 #innerbody {max-width: 175rem; margin: 0 auto;position: relative;}
 a {text-decoration: none; color: #353535;}
+p > a {color: #0B6623;}
 ul, ol {list-style-type: none;}
 
 
@@ -84,9 +85,9 @@ div.large {height: 50rem;}
 /* HOME */
 .home .section.fullscreen {height: 100vh; width: 100%; display: flex; justify-content: center; flex-direction: column; align-items: center; position: relative;}
 .home .section.fullscreen h1 {margin-top:0rem; width: 55%; margin-left: 25%; font-size: 1rem;}
-.home .section.fullscreen a {position: absolute; bottom: 0.5rem; display: flex; justify-content: center; height: 2rem; animation: bunnyHop 1.5s ease infinite alternate; cursor: pointer; padding: 1rem; width: 2rem;}
-.home .section.fullscreen a span {display: block; height: 0.14rem; width: 1.2rem; background: #0B6623; position: absolute;}
-.home .section.fullscreen a span:nth-of-type(1) {transform: rotate(-45deg); margin-left: 1.6rem;}
+.home .section.fullscreen a {position: absolute; bottom: 0.5rem; display: flex; justify-content: center; height: 2rem; animation: bunnyHop 1.5s ease infinite; cursor: pointer; padding: 1rem; width: 2rem; margin-left: -0.8rem;}
+.home .section.fullscreen a span {display: block; height: 0.14rem; width: 1.2rem; background: #0B6623; position: absolute; border-radius: 0.5rem;}
+.home .section.fullscreen a span:nth-of-type(1) {transform: rotate(-45deg); margin-left: 1.55rem;}
 .home .section.fullscreen a span:nth-of-type(2) {transform: rotate(45deg); }
 
 @keyframes bunnyHop {
@@ -110,3 +111,29 @@ div.divider {height: 2px; width: 1rem; background: #0B6623; margin: 4rem auto;}
 .home .section.image a.button { text-transform: uppercase; font-size: 0.7rem; display: inline-block; width: 50%; padding: 0.7rem; background: #353535; color: #ffffff; text-align: center; border-radius: 2rem; margin: 1rem 0; align-self: flex-end; transition: 100ms ease;}
 .home .section.image a.button:hover {background-color: #0B6623;}
 
+.home .section.image.contact > div > div {align-self: flex-end; display: flex; margin-top: 1rem;}
+.home .section.image.contact > div > div > a {margin-left: 1rem;}
+.home .section.image.contact > div > div > a img {width: auto; height: 2rem;}
+.home .section.image.contact > div > div > a img:nth-of-type(1) {height: 1.4rem;}
+
+.home .section.image.map {margin-top: 4rem;}
+.home .section.image.map > div {margin-bottom: 0;}
+.home .section.image.map > div a {display: block; width: calc(100% + 2rem); padding-bottom: 60%; position: relative;}
+.home .section.image.map > div a img { position: absolute; height: 1rem; width: auto; margin-top: 23%; margin-left: 48%; transform: rotate(-2.5deg); animation: wobble 1s infinite ease; transform-origin: center bottom;}
+
+@keyframes wobble {
+    0% {transform: rotate(-2.5deg);}
+    50% {transform: rotate(2.5deg);}
+    100% {transform: rotate(-2.5deg);}
+}
+
+footer {background: #353535; display: flex; flex-direction: column;}
+footer > div {margin: 1rem; margin-top: 0;}
+footer > div:first-of-type {margin-top: 2rem;}
+footer > div > img.logo { width: 4rem; height: auto;}
+footer > div ul li::before {  content: "\2022";  color: #E1E0D6;  font-weight: bold;   display: inline-block;   width: 0.5rem;  margin-left: -0.1rem; } 
+footer > div ul li {margin-top: 0.2rem;}
+footer a  {font-size: 0.7rem; color: #E1E0D6}
+footer #icons { display: flex; flex-direction: column;}
+footer #icons a{ display: flex; align-items: center; margin-bottom: 0.7rem;}
+footer #icons a img {margin-right: 1rem; width: 1rem;}
