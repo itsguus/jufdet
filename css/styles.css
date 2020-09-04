@@ -72,7 +72,7 @@ h4 { font-size: 0.8rem; font-weight: normal;}
 #menu > div:nth-of-type(2) nav ul > div:last-of-type {display: none;}
 
 #menu input[type=checkbox]:checked {left: calc(100% - 2.5rem); margin-right: 0.75rem; margin-left: 0;}
-#menu input[type=checkbox]:checked ~ div#hamburger {left: calc(100% - 2.25rem); transform: rotate(180deg); transition-delay:150ms;}
+#menu input[type=checkbox]:checked ~ div#hamburger {left: calc(100% - 2.75rem); transform: rotate(180deg); transition-delay:150ms;}
 #menu input[type=checkbox]:checked ~ div#hamburger span {transition-delay: 250ms;}
 #menu input[type=checkbox]:checked ~ div#hamburger span:nth-of-type(1) {width:1.4rem; margin-top: 0.2rem; transform: rotate(45deg); transform-origin: top left;}
 #menu input[type=checkbox]:checked ~ div#hamburger span:nth-of-type(2) {width:0rem; opacity: 0;}
@@ -159,3 +159,21 @@ footer #icons a img {margin-right: 1rem; width: 1rem;}
 .section.projects ul li {margin-top: 2rem;}
 .section.projects ul li:last-of-type {margin-bottom: 5rem;}
 .section.projects ul li img {width: 100%;}
+
+.artwork .section.introduction h1  {margin-top: 3rem; text-align: left;}
+.artwork .section.introduction .imagebox {margin: 0.5rem 0;}
+
+.kunst .section > p {margin-bottom: 2rem;}
+
+.vragen .section.introduction h1 {text-align: left; font-size: 7vw; margin: 2rem auto 0.5rem auto;}
+
+ul.jekyllcodex_accordion {position: relative; margin: 1.4rem 0!important; border-bottom: 1px solid rgba(0,0,0,0.25); padding-bottom: 0;}
+ul.jekyllcodex_accordion li {border-top: 1px solid rgba(0,0,0,0.25); list-style: none; margin-left: 0;}
+ul.jekyllcodex_accordion li input {display: none;}
+ul.jekyllcodex_accordion li label {display: block; cursor: pointer; padding: 0.75rem 2.4rem 0.75rem 0; margin: 0;}
+ul.jekyllcodex_accordion li div {display: none; padding-bottom: 1.2rem;}
+ul.jekyllcodex_accordion li input:checked + label {font-weight: bold;}
+ul.jekyllcodex_accordion li input:checked + label + div {display: block;}
+ul.jekyllcodex_accordion li label::before {content: "+"; font-weight: normal; font-size: 130%; line-height: 1.1rem; padding: 0; position: absolute; right: 0.5rem; transition: all 0.15s ease-in-out;}
+ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45deg);}
+

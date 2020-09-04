@@ -4,25 +4,7 @@
 
 <div class="section introduction">
     <h1>{{ page.title }}</h1>
-
-    {% include carrousel.html height="70" unit="%" duration="7" %}
-
-    <h2>{{ page.top.title }}</h2>
-    <p>{{ page.top.text }}</p>
-    <div class="imagebox">
-        <img src="{{ page.middle_image }}" alt="{{ page.title }}">
-    </div>
-    <h2>{{ page.bottom_title }}</h2>
     {{ content }}
-</div>
-
-<div class="divider"></div>
-
-
-{% if page.slug == "de-klas" %}
-<div class="section projects">
-    <h2>{{ page.projects.title }}</h2>
-    <p>{{ page.projects.text }}</p>
     <ul>
         {% for item in site.artworks %}
         <li>
@@ -35,6 +17,9 @@
         {% endfor %}
     </ul>
 </div>
-{% endif %}
+
+
+
+
 
 {% include footer.html %}

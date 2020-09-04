@@ -19,9 +19,9 @@
 
 <div class="section image right carrousel">
     <div>
-        <h2>{{ page.lokaal.title }}</h2>
-            {% include carrousel.html height="60" unit="%" duration="7" %}
-        <p>{{ page.lokaal.text }}</p>
+        <h2>{{ page.slider.title }}</h2>
+        {% include carrousel.html height="60" unit="%" duration="7" %}
+        <p>{{ page.slider.text }}</p>
     </div>
 </div>
 
@@ -36,7 +36,9 @@
     </div>
 </div>
 
-<div class="divider"></div>
+<div class="divider"  id="contact"></div>
+
+
 
 <div class="section image left contact">
     <div>
@@ -59,6 +61,7 @@
 </div>
 
 <div class="divider"></div>
+
 
 
 {% include footer.html %}
