@@ -3,4 +3,4 @@ title: Vogel van Guus
 image: /img/project_fill.jpg
 ---
 
-beschrijving beschrijving hier is het leuk om er wat over te vertellen lorem ipsum dolor et fasu messi cristiano ronaldo
+beschrijving beschrijving hier is het leuk om er wat over te vertellen lorem ipsum dolor et fasu messi cristiano ronaldo 

@@ -16,4 +16,4 @@ Via een aantal omzwervingen woon ik nu bij jullie in Heeg, hiervoor woonde ik in
 Daar gaf ik voor een lange tijd trainingen in sociale vaardigheden en communicatie door middel van dramalessen. Ook heb ik op Texel gewerkt als weefjuf in een weverij, iets wat ik weer geleerd heb in Noorwegen, waar ik op jonge leeftijd een jaar de Volkshogeschool heb gevolgd.
 
 
-Met mijn gezin heb ik drie jaar in Amerika gewoond, waar ik op de school van mijn kinderen heb gewerkt als assistent van de kunstjuf, waar mijn liefde voor klei is ontstaan. De afgelopen 14 jaar heb ik met een vriendin een keramiekatelier, werkte ik als vakdocent op een lagere Jenaplan- school en als docent beeldend vorming en tekenen op een middelbare school.
+Met mijn gezin heb ik drie jaar in Amerika gewoond, waar ik op de school van mijn kinderen heb gewerkt als assistent van de kunstjuf, waar mijn liefde voor klei is ontstaan. De afgelopen 14 jaar heb ik met een vriendin een keramiekatelier, werkte ik als vakdocent op een lagere Jenaplan- school en als docent beeldend vorming en tekenen op een middelbare school. 

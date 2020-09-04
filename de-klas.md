@@ -20,4 +20,4 @@ projects:
 ---
 JufDet sluit aan op de schooltijden: we beginnen om 14.30 en eindigen om 16.30. Tijdens de les houden we op het juiste moment een appel-pauze en switchen we van onderwerp óf werken we prettig door. Het is een schooljaar-rond programma, de schoolvakanties worden aangehouden, een uitzondering daargelaten in goed overleg.
 
-Iedere kunstles is anderhalf uur. Voor de materialen wordt gezorgd. Binnen de les zal de een sneller gaan dan de ander, dat betekent dat een ieder individueel begeleid wordt.
+Iedere kunstles is anderhalf uur. Voor de materialen wordt gezorgd. Binnen de les zal de een sneller gaan dan de ander, dat betekent dat een ieder individueel begeleid wordt. 

@@ -23,3 +23,4 @@ werkwijze:
 contact_text: >-
     Wil je er eerst even over kletsen? Geef Det een belletje op <a href="tel:+31645932547">+31 6 45 93 25 47</a> of stuur een mailtje naar <a href="mailto:det@jufdet.nl">det@jufdet.nl</a>
 ---
+ 

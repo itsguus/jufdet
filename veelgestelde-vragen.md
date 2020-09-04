@@ -12,4 +12,4 @@ vragen:
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
-Hier een inleiding waarom we veelgestelde vragen als pagina hebben aangemaakt. Keyword keyword lachen lachen en zorg dat we de gebruiker informeren over wat ze hier kunnen verwachten.
+Hier een inleiding waarom we veelgestelde vragen als pagina hebben aangemaakt. Keyword keyword lachen lachen en zorg dat we de gebruiker informeren over wat ze hier kunnen verwachten.  

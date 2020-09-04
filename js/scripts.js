@@ -11,4 +11,4 @@ window.addEventListener("scroll", scrollFunction);
 
 function scrollDown() {
     window.scrollTo(0, (window.innerHeight - 100));
-}
+} 
